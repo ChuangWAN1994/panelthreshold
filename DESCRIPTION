@@ -1,0 +1,18 @@
+Package: panelthreshold
+Title: Estimate the Dynamic Panel Models with Multi-threshold Effects and Endogeneity
+Version: 0.1.0
+Authors@R: 
+    person(given = "Chuang", 
+           family = "Wan", 
+           role = c("aut", "cre"),
+           email = "wanchuanghnu@126.com")
+Description: This function maily estimate the dynamic multiple threshold regression with threshold 
+    effects and endogeneity. To handle endogeneity, we apply the rst-differenced GMM framework
+    to estimate the unknown parameters for a given number of thresholds. When the number of thresholds 
+    is unknown, a modified information criterion is employed to determine the model complexity.  Moreover, 
+    we develop a sup-Wald test statistic to facilitate inference on threshold effects. 
+License:  GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: MASS
