@@ -4,7 +4,9 @@
     effects and endogeneity. To handle endogeneity, we apply the rst-differenced GMM framework
     to estimate the unknown parameters for a given number of thresholds. When the number of thresholds 
     is unknown, a modified information criterion is employed to determine the model complexity.  Moreover, 
-    we develop a sup-Wald test statistic to facilitate inference on threshold effects. 
+    we develop a sup-Wald test statistic to facilitate inference on threshold effects. This R package is based on the paper:
+
+Wan C, Li Y. Dynamic panel models with multi-threshold effects and endogeneity. *Statistics*, 2025: 1-21.
     
 # How to install
 You can install the development version from GitHub
