@@ -1,7 +1,7 @@
 # panelthreshold
 
 `panelthreshold` is an `R` package to estimate the dynamic multiple threshold regression with threshold 
-    effects and endogeneity. To handle endogeneity, we apply the rst-differenced GMM framework
+    effects and endogeneity. To handle endogeneity, we apply the first-differenced GMM framework
     to estimate the unknown parameters for a given number of thresholds. When the number of thresholds 
     is unknown, a modified information criterion is employed to determine the model complexity.  Moreover, 
     we develop a sup-Wald test statistic to facilitate inference on threshold effects. This R package is based on the paper:
